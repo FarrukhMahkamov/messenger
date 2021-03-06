@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap');
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgb(161, 190, 190);
+    font-family: 'Open Sans', sans-serif;
+}
+*,
+*::after
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container  {
+   margin-top: 50px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 370px;
+ 
+   background-color: white;
+
+}
+.card-header{
+    height: 50px;
+    background-color: #6A96D8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item{
+    color: white;
+    font-size: 12px;
+    text-transform: uppercase;
+   
+}
+.nav-closer{
+    margin-right: 20px;
+    width: 20px;
+}
+.card-messages{
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.second-header{
+  display: flex;
+ align-items: center;
+}
+.header-time {
+    text-align: center;
+    font-size: 11px;
+    color: rgba(187, 192, 192, 0.568);
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.second-header::before{
+    content: "";
+    width: 120px;
+    height: 1px;
+    background-color: rgba(187, 192, 192, 0.568);
+}
+.second-header::after{
+    content: "";
+    width: 140px;
+    height: 1px;
+    background-color: rgba(187, 192, 192, 0.568);
+}
+
+.message-left .time{
+    font-size: 11px;
+    color: rgba(187, 192, 192, 0.568);
+}
+.message-left.time{
+    margin-top: 50px;
+}
+.message-left .text-message{
+    position: relative;
+    background-color:#d1e7f1;
+    font-weight: bold;
+    padding: 10px;
+    width: 250px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+.message-left .text-message.small{
+    padding: 10px;
+    width: 100px;
+ 
+}
+.message-right .time{
+    margin-left: 300px;
+    font-size: 11px;
+    color: rgba(187, 192, 192, 0.568);
+}
+.message-right .text-message{
+    margin-left: 65px;
+    background-color:#f2f2f2;
+    font-weight: bold;
+    padding: 10px;
+    width: 250px;
+    font-size: 14px;
+    border-radius: 2px;
+}
+ .message-last{
+    margin-left: 130px;
+    background-color: rgba(255,194,193,255);
+    font-weight: bold;
+    padding: 2px;
+    width: 200px;
+    font-size: 14px;
+    border-radius: 2px;
+ }
+.input{
+    outline: none;
+    border: none;
+    font-size: 14px;
+    padding-bottom: 17px;
+}
+.input:active{
+    border: none;
+    outline: none;
+}
+.submit{
+    margin-left: 80px;
+    text-transform: uppercase;
+    color: rgb(47, 127, 233);
+    border: none;
+    background-color: white;
+}
